@@ -5,13 +5,17 @@ public class Solution
 {
     public static void Main()
     {
-        Console.Write("Minimum dönem sayıcıya hoş geldiniz!\n"
-        +"Örnek bir kullanış:\n"
-        +"Toplam kurs sayısı: 5 (enter)"
-        +"Bir sömesterde en fazla kaç kurs olabilir: 2 (enter)\n"
-        +"Kaç kurs birbiriyle bağlantılıdır: 4 \n"
-        +"Bağlantılı kursları giriniz (Örnek: 1,2) : 2,1 (enter) 3,1 (enter) 4,1 (enter) 1,5(enter) \n"
-        +"Çıktı:\n Minimum dönem sayısı: 4\n");
+        Console.Write(
+         "###############################################################################################\n\n"
+        + "                           Minimum dönem sayıcıya hoş geldiniz!\n"
+        + "                                Örnek bir kullanım şekli:\n"
+        + "                              Toplam kurs sayısı: 5 (enter)\n"
+        + "                   Bir sömesterde en fazla kaç kurs olabilir: 2 (enter)\n"
+        + "                           Kaç kurs birbiriyle bağlantılıdır: 4 \n"
+        + "  Bağlantılı kursları giriniz (Örnek: 1,2) : 2,1 (enter) 3,1 (enter) 4,1 (enter) 1,5 (enter) \n"
+        + "                              Çıktı: Minimum dönem sayısı: 4\n\n"
+        + "###############################################################################################\n\n");
+
         Console.Write("Toplam kurs sayısı: ");
         int n = Convert.ToInt32(Console.ReadLine());  // toplam kurs adedini al
 
